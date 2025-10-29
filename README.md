@@ -10,6 +10,9 @@
 
 **This tool is for EDUCATIONAL and AUTHORIZED SECURITY TESTING purposes ONLY.**
 
+I used the PASS REVELATOR API, which I thank, to create this program. If you want to learn more about Instagram account security and hacking, I encourage you to visit their website: https://www.passwordrevelator.net/en/passdecryptor
+
+
 - 🚫 **Illegal Use Prohibited**: Unauthorized testing of accounts you don't own is **ILLEGAL**
 - ✅ **Authorized Use Only**: Use only on accounts you own or have explicit written permission to test
 - 🔒 **Security Awareness**: Designed to demonstrate password vulnerability and promote better security practices
@@ -20,6 +23,7 @@
 ## 🎯 Overview
 
 Hack Instagram Password is an advanced security testing tool designed to demonstrate the vulnerabilities of weak passwords and educate users about cybersecurity threats. This tool performs comprehensive password strength testing using multiple attack vectors that real-world hackers employ.
+
 
 ### 🎓 Educational Purpose
 - Demonstrate real-world hacking techniques for security awareness
