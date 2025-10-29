@@ -1,6 +1,6 @@
 # 🔐 Hack Instagram Password - Security Testing Tool
 
-**Advanced Instagram Password Security Assessment Tool | Educational Use Only | Version 2025.1**
+**Advanced Instagram Password Security Assessment Tool | Educational Use Only**
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Security](https://img.shields.io/badge/Security-Testing-red)
