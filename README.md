@@ -67,7 +67,7 @@ Hack Instagram Password is an advanced security testing tool designed to demonst
 
 ### Step 1: Clone Repository
 ```bash
-git clone https://github.com/your-username/hack-instagram-password.git
+git clone https://github.com/ieuhhr/InstaHack-with-AI/hack-instagram-password.git
 cd hack-instagram-password
 
 Step 2: Install Dependencies
